@@ -1,0 +1,23 @@
+= Astrology Gem
+
+The gem is to provide a central place for pushing in a date or timestamp of a birthdateand getting astrology data.
+
+== Installing
+
+In rails you can add it to the Gemfile:
+  gem 'astrology'
+
+Outside of a rails
+  gem install astrology
+  
+  
+== Usage
+
+Get an astrology data by passing in a timestamp of a string
+
+  Astrology.get_data('10/20/2010')
+
+Or you can pass it a timestamp
+
+  Astrology.get_data(Time.now)
+  
